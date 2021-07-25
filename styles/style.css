@@ -1,0 +1,52 @@
+body {
+  background-image: url(../pictures/wood-background.jpeg);
+}
+
+#grid-container {
+  margin: 0 auto;
+  height: 35rem;
+  width: 35rem;
+  display: grid;
+  justify-content: center;
+  background-color: rgb(166, 117, 74);
+  border: 1rem solid rgb(44, 33, 22);
+}
+
+.square {
+  border: 1px solid black;
+}
+
+header {
+  text-align: center;
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  color: brown;
+  -webkit-text-stroke: 2px black;
+}
+
+#wrapper {
+  margin-top: 3rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.controls {
+  background-color: brown;
+  font-size: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  min-width: 7rem;
+  border: 2px groove rgb(44, 33, 22);
+}
+
+.controls:active {
+  background: rgb(44, 33, 22);
+  color: brown;
+}
